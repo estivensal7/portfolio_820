@@ -1,0 +1,211 @@
+/* ~~~~~ LANDING START~~~~~ */
+#landing-container {
+	height: 60vh;
+	background: black;
+	background-image: url("./assets/autumn.png");
+}
+
+#landing-card {
+	position: relative;
+	top: 10%;
+	width: 85%;
+	height: 80%;
+	border: 2px solid blanchedalmond;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#typed-font-container {
+	position: relative;
+	top: 10%;
+	height: 20%;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	color: blanchedalmond;
+}
+
+#top-hat-container {
+	position: relative;
+	height: 80%;
+	margin: auto;
+}
+
+#tophat-logo {
+	position: relative;
+	height: 20%;
+	width: 20%;
+	left: 40%;
+}
+/* ~~~~~ LANDING END~~~~~ */
+/* 
+*
+*
+*/
+/* ~~~~~ TABS NAVIGATION START~~~~~ */
+#tabs-nav {
+	background-color: #000;
+}
+
+.nav-item {
+	margin-bottom: 0px !important;
+}
+
+.nav-item > a {
+	color: blanchedalmond !important;
+	text-decoration: none !important;
+}
+
+.nav-item > .nav-link.active {
+	text-decoration: underline !important;
+	background-color: #000 !important;
+}
+
+.nav-link,
+.nav-link.active {
+	border: none !important;
+}
+
+.nav-item > a {
+	cursor: pointer;
+}
+
+#content-container {
+	background: url("./assets/pattern.jpg") !important;
+	background-size: cover;
+	min-height: 40vh;
+}
+
+/* ~~~~~ TABS NAVIGATION END~~~~~ */
+/* 
+*
+*
+*/
+/* ~~~~~ PORTFOLIO PAGE/MODAL START ~~~~~ */
+
+#github-link-button,
+#deployed-link-button {
+	background-color: black !important;
+}
+
+.project-link {
+	text-decoration: none !important;
+	color: blanchedalmond !important;
+}
+
+/* ~~~~~ PORTFOLIO PAGE/MODAL END ~~~~~ */
+/* 
+*
+*
+*/
+/* ~~~~~ RESUME PAGE START ~~~~~ */
+
+#resume-jumbotron {
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 0px;
+}
+
+/* ~~~~~ RESUME PAGE END ~~~~~ */
+/* 
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+/* ~~~~~ MINIMUM 320px START ~~~~~ */
+
+@media screen and (min-width: 320px) {
+	/* RESUME PAGE */
+	.resume-header {
+		font-size: 48px !important;
+	}
+
+	.resume-sub-header {
+		font-size: 30px !important;
+	}
+
+	/* LANDING COMPONENT */
+	#typed-font-container {
+		font-size: 15px;
+	}
+
+	#tophat-logo {
+		position: relative;
+		width: 45%;
+		left: 27.5%;
+	}
+}
+
+/* ~~~~~ MINIMUM 320px END ~~~~~ */
+/*
+*
+*
+*/
+/* ~~~~~ MINIMUM 481px START ~~~~~ */
+
+@media screen and (min-width: 481px) {
+	/* LANDING COMPONENT */
+	#typed-font-container {
+		font-size: 20px;
+	}
+
+	#top-hat-container {
+		height: 50%;
+	}
+
+	#tophat-logo {
+		position: relative;
+		width: 30%;
+		left: 35%;
+	}
+}
+
+/* ~~~~~ MINIMUM 481px END ~~~~~ */
+/*
+*
+*
+*/
+/* ~~~~~ MINIMUM 769px START ~~~~~ */
+
+@media screen and (min-width: 769px) {
+	/* LANDING COMPONENT */
+	#typed-font-container {
+		font-size: 30px;
+	}
+
+	#tophat-logo {
+		position: relative;
+		width: 20%;
+		left: 40%;
+	}
+}
+
+/* ~~~~~ MINIMUM 769px END ~~~~~ */
+/*
+*
+*
+*/
+/* ~~~~~ MINIMUM 1025px START ~~~~~ */
+
+@media screen and (min-width: 1025px) {
+	/* LANDING COMPONENT */
+	#typed-font-container {
+		font-size: 40px;
+	}
+
+	#tophat-logo {
+		position: relative;
+		width: 15%;
+		left: 42.5%;
+	}
+}
+
+/* ~~~~~ MINIMUM 1025px END ~~~~~ */
